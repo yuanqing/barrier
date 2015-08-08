@@ -25,7 +25,7 @@ var barrier = function(num, cb) {
     if (index < 0 || index >= num) {
       return cb('invalid index: ' + index);
     }
-    if (completed[index] === true) {
+    if (completed[index]) {
       return cb('called more than once: ' + index);
     }
     hasErrored = false;

@@ -1,0 +1,29 @@
+{
+  "name": "@yuanqing/barrier",
+  "version": "0.0.0",
+  "description": "An implementation of the Barrier pattern in JavaScript.",
+  "author": "Lim Yuan Qing",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yuanqing/barrier.git"
+  },
+  "devDependencies": {
+    "eslint": "^1.1.0",
+    "istanbul": "^0.3.17",
+    "tape": "^4.0.3"
+  },
+  "scripts": {
+    "build": "npm run lint && npm run test",
+    "test": "rm -rf coverage && istanbul cover -- tape test/*.js",
+    "lint": "eslint index.js test/*.js"
+  },
+  "keywords": [
+    "async",
+    "asynchronous",
+    "barrier",
+    "callback",
+    "control",
+    "flow"
+  ]
+}

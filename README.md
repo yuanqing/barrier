@@ -1,4 +1,4 @@
-# barrier.js [![npm Version](http://img.shields.io/npm/v/barrier.svg?style=flat)](https://www.npmjs.org/package/@yuanqing/barrier) [![Build Status](https://img.shields.io/travis/yuanqing/barrier.svg?style=flat)](https://travis-ci.org/yuanqing/barrier) [![Coverage Status](https://img.shields.io/coveralls/yuanqing/barrier.svg?style=flat)](https://coveralls.io/r/yuanqing/barrier)
+# barrier.js [![npm Version](http://img.shields.io/npm/v/@yuanqing/barrier.svg?style=flat)](https://www.npmjs.org/package/@yuanqing/barrier) [![Build Status](https://img.shields.io/travis/yuanqing/barrier.svg?style=flat)](https://travis-ci.org/yuanqing/barrier) [![Coverage Status](https://img.shields.io/coveralls/yuanqing/barrier.svg?style=flat)](https://coveralls.io/r/yuanqing/barrier)
 
 > An implementation of the [Barrier](https://en.wikipedia.org/wiki/Barrier_(computer_science)) pattern in JavaScript.
 

@@ -46,7 +46,7 @@ var barrier = require('@yuanqing/barrier');
 - `err` &mdash; Set this to a truthy value to indicate that an error had occurred.
 - `result` &mdash; The result of the function; optional.
 
-`b` must be invoked *exactly once* for every `index` in the range `[0, num)`. So, in our example, given that `num` is `2`, we invoke `b` with `index` set to `0` and `1`.
+`b` must be invoked with `index` set to each number in the range `[0, num)`. So, in our example, given that `num` is `2`, we invoke `b` once with `index` set to `0`, and another time with `index` set to `1`.
 
 ## Installation
 
